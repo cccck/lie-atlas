@@ -1,0 +1,19 @@
+# dependencies and build output
+node_modules/
+dist/
+.vite/
+
+# local test artefacts (scripts/smoke.mjs writes screenshots and report.json here)
+screenshots/
+.snapshot/
+
+# logs, env files, editor and OS clutter
+*.log
+npm-debug.log*
+.env
+.env.*
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
